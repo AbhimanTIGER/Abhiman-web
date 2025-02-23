@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-image: url('img/generated-photo.jpg') ;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/*nav*/
+.navbar {
+    background-color: #33333300;
+    display: flex;
+    padding: 10px;
+    padding-left: 60%;
+    animation-name: zoom;
+    animation-duration: 3s;
+}
+
+.navbar a {
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    margin: 40px 20px;
+
+}
+.navbar a:hover {
+    color: #57480f;
+}
+
+
+.all_name{
+    animation-name: welcom_lorem;
+    animation-duration: 4s;
+}
+.name {
+
+    margin-top: 50px;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.493);
+    font-weight: 1000;
+    font-size: 20px;
+    animation: moveUpDown-3 2s infinite alternate ease-in-out, glow 1s infinite alternate ease-in-out;
+}
+.name2 {
+    margin-top: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 50px;
+}
+.name21 {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+.name3 {
+    margin-top: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.678);
+}
+.name4 {
+    margin-top: 30px;
+    text-align: center;
+    color: rgba(71, 42, 42, 0.678);
+}
+.name5 {
+    text-decoration: none;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #00e8f8;
+    background-color: #ffcc0000;
+    border: 1px solid rgb(0, 255, 13);
+    cursor: pointer;
+    border-radius: 2px;
+}
+.name5:hover {
+    background-color: #03030350;
+    border: 1px solid rgba(0, 255, 13, 0.39);
+    transition: 0.25s all linear;
+}
+.name5:active {
+    background-color: #030303c0;
+    border: 1px solid rgba(0, 255, 13, 0.39);
+}
+
+
+
+
+
+
+
+
+
+@keyframes zoom {
+    from {
+        opacity: 0;
+        transform: scale(-1);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes welcom_lorem {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveUpDown-3 {
+    from {
+        transform: translateX(-50px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
