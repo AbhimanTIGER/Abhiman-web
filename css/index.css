@@ -92,6 +92,147 @@ header {
 }
 
 
+.servis_p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1a565a;
+    font-size: 2rem;
+    font-weight: normal;
+    position: relative;
+    display: inline-block;
+}
+
+.servis_p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: rgba(0, 224, 11, 0.699);
+    animation: underline-animation 3s infinite alternate ease-in-out;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 30px;
+}
+.row1 {
+    flex: 20%;
+}
+.row2 {
+    flex: 20%;
+}
+.row3 {
+    flex: 20%;
+}
+.row1p1 {
+    margin-top: 10px;
+    margin-left: 35px;
+    padding: 5px;
+    text-align: left;
+    color: #505f69;
+    font-size: 20px;
+}
+.row1p2 {
+    font-size: 17px;
+    font-weight: 200;
+    margin-top: 5px;
+    margin-left: 35px;
+    padding: 5px;
+    text-align: left;
+    color: #505f69;
+}
+
+
+.profil {
+    background-color: #0e686e13;
+    color: #70a5c9;
+}
+.lorem_pro {
+    width: 60%;
+    font-size: 25px;
+    font-weight: 300;
+}
+.para_pro {
+    color: #008791;
+}
+
+
+.Contact1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-top: 50px;
+    background-image: url('img/BingWallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.con1 {
+    margin-bottom: 20px;
+    flex: 50%;
+    text-align: center;
+}
+.con2 {
+    flex: 50%;
+}
+.alegen1 {
+    font-size: 40px;
+    color: #008791;
+}
+.alegen {
+    font-size: 20px;
+    color: #0f3f5f00;
+}
+.alegen12 {
+    margin-top: 35px;
+    font-size: 25px;
+    color: #ffffffe1;
+    font-weight: 800;
+}
+.name51 {
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #03181ad7;
+    background-color: #aaf300;
+    border: 1px solid rgb(0, 255, 13);
+    cursor: pointer;
+    border-radius: 2px;
+}
+.name51:hover {
+    background-color: #2bff003f;
+    border: 1px solid rgb(0, 255, 13);
+    transition: 0.25s all linear;
+}
+.name51:active {
+    background-color: #030303c0;
+    border: 1px solid rgba(0, 255, 13, 0.39);
+}
+.alegen2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #0f3f5f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -131,3 +272,11 @@ header {
         transform: translateX(0px);
     }
 }
+@keyframes underline-animation {
+    100% {
+      width: 0%;
+    }
+    0% {
+      width: 100%;
+    }
+  }
