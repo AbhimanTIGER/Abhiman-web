@@ -5,7 +5,7 @@
     font-family: Arial, sans-serif;
 }
 header {
-    background-image: url('img/generated-photo.jpg') ;
+    background-image: url('img/BB1msOP5.jpg') ;
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -21,14 +21,14 @@ header {
 }
 
 .navbar a {
-    color: white;
+    color: rgb(0, 5, 80);
     font-size: 19px;
     text-decoration: none;
     margin: 40px 20px;
 
 }
 .navbar a:hover {
-    color: #57480f;
+    color: #8cc1e4;
 }
 
 
@@ -48,24 +48,24 @@ header {
 .name2 {
     margin-top: 30px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.678);
+    color: rgb(32, 0, 0);
     font-size: 50px;
 }
 .name21 {
     margin-top: 30px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(37, 0, 0);
     font-size: 80px;
 }
 .name3 {
     margin-top: 30px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.678);
+    color: rgb(0, 0, 0);
 }
 .name4 {
     margin-top: 30px;
     text-align: center;
-    color: rgba(71, 42, 42, 0.678);
+    color: rgb(0, 0, 0);
 }
 .name5 {
     text-decoration: none;
