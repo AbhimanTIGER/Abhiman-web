@@ -48,24 +48,26 @@ header {
 .name2 {
     margin-top: 30px;
     text-align: center;
-    color: rgb(32, 0, 0);
+    color: rgb(78, 31, 31);
     font-size: 50px;
 }
 .name21 {
+    font-family: 'Courier New', Courier, monospace;
     margin-top: 30px;
     text-align: center;
-    color: rgb(37, 0, 0);
+    color: rgb(29, 41, 58);
     font-size: 80px;
 }
 .name3 {
     margin-top: 30px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(51, 31, 31);
 }
 .name4 {
+    font-size: 50px;
     margin-top: 30px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(80, 56, 56);
 }
 .name5 {
     text-decoration: none;
@@ -109,7 +111,7 @@ header {
     width: 0;
     height: 3px;
     background-color: rgba(0, 224, 11, 0.699);
-    animation: underline-animation 3s infinite alternate ease-in-out;
+    animation: underline-animation 1s infinite alternate ease-in-out;
 }
 
 
@@ -167,7 +169,7 @@ header {
     flex-wrap: wrap;
     margin-top: 30px;
     padding-top: 50px;
-    background-image: url('img/BingWallpaper.jpg');
+    animation: welco 0.25s infinite alternate ease-in-out;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -190,7 +192,7 @@ header {
 .alegen12 {
     margin-top: 35px;
     font-size: 25px;
-    color: #ffffffe1;
+    color: #702222e1;
     font-weight: 800;
 }
 .name51 {
@@ -198,19 +200,20 @@ header {
     padding: 15px 30px;
     font-size: 18px;
     color: #03181ad7;
-    background-color: #aaf300;
-    border: 1px solid rgb(0, 255, 13);
+    animation: welco 0.25s infinite alternate ease-in-out;
+    border: none;
     cursor: pointer;
     border-radius: 2px;
 }
 .name51:hover {
-    background-color: #2bff003f;
-    border: 1px solid rgb(0, 255, 13);
+    animation: welco2 0.25s infinite alternate ease-in-out;
+    color: white;
+    border: none;
     transition: 0.25s all linear;
 }
 .name51:active {
     background-color: #030303c0;
-    border: 1px solid rgba(0, 255, 13, 0.39);
+    border: none;
 }
 .alegen2 {
     margin-top: 10px;
@@ -218,6 +221,10 @@ header {
     font-size: 20px;
     color: #0f3f5f;
 }
+.all_name {
+    animation-name: welcom_lorem;
+    animation-duration: 6s;
+}
 
 
 
@@ -237,9 +244,26 @@ header {
 
 
 
+@keyframes welco2 {
 
+    0% {
+        background: linear-gradient(4deg, #0099ff, #ffffff);
+    }
 
+    100% {
+        background: linear-gradient(4deg, #0099ff, #ffffff);
+    }
+}
+@keyframes welco {
 
+    0% {
+        background: linear-gradient(4deg, #ff8db9, #ffffff);
+    }
+
+    100% {
+        background: linear-gradient(4deg, #ff8db9, #ffffff);
+    }
+}
 @keyframes zoom {
     from {
         opacity: 0;
