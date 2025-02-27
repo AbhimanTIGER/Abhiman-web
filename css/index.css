@@ -255,21 +255,21 @@ header {
 @keyframes welco2 {
 
     0% {
-        background: linear-gradient(4deg, #0099ff, #ffffff);
+        background: linear-gradient(4deg, #bb80ff, #ffffff);
     }
 
     100% {
-        background: linear-gradient(4deg, #0099ff, #ffffff);
+        background: linear-gradient(4deg, #bb80ff, #ffffff);
     }
 }
 @keyframes welco {
 
     0% {
-        background: linear-gradient(4deg, #ff8db9, #ffffff);
+        background: linear-gradient(4deg, #5a00a3, #ffffff);
     }
 
     100% {
-        background: linear-gradient(4deg, #ff8db9, #ffffff);
+        background: linear-gradient(4deg, #5a00a3, #ffffff);
     }
 }
 @keyframes zoom {
