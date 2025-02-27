@@ -225,7 +225,15 @@ header {
     animation-name: welcom_lorem;
     animation-duration: 6s;
 }
-
+.cal {
+    margin: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #00e8f8;
+}
+.footer {
+    background-color: #0099ff6e;
+}
 
 
 
