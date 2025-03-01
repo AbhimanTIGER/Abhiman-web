@@ -1,21 +1,21 @@
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault();
-
+function Maseg(){
+    alert("finish send you maseg");
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
-    var phone = document.getElementById("phone").value;
+    var email = document.getElementById("number").value;
     var message = document.getElementById("message").value;
 
-    if (name.trim() === "" || email.trim() === "" || phone.trim() === "" || message.trim() === "") {
+    if (name.trim() === "" || email.trim() === "" || message.trim() === "" || number.trim() === "") {
         alert("Please fill all fields before sending.");
         return;
     }
 
-    var fullMessage = `Name : ${name}\nNumber : ${phone}\nEmail : ${email}\nMessage : ${message}`;
+    var fullMessage = `Name: ${name}\nEmail: ${email}\nNumber: ${number}\nMessage: ${message}`;
 
     var myPhoneNumber = "94775295373";
     var encodedMessage = encodeURIComponent(fullMessage);
     var whatsappURL = `https://wa.me/${myPhoneNumber}?text=${encodedMessage}`;
-    window.open(whatsappURL, "_blank");
 
-});
+    window.open(whatsappURL, "_blank");
+  
+}    
