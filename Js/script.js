@@ -1,5 +1,7 @@
 function Maseg(){
-    alert("finish send you maseg");
+
+    alert("GO whatsapp and drop you maseg ");
+
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
     var email = document.getElementById("number").value;
@@ -17,5 +19,5 @@ function Maseg(){
     var whatsappURL = `https://wa.me/${myPhoneNumber}?text=${encodedMessage}`;
 
     window.open(whatsappURL, "_blank");
-  
-}    
+    
+}
