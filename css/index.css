@@ -15,7 +15,7 @@ header {
     background-color: #33333300;
     display: flex;
     padding: 10px;
-    padding-left: 60%;
+    justify-content: end;
     animation-name: zoom;
     animation-duration: 3s;
 }
