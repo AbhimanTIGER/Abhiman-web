@@ -1,6 +1,6 @@
         // EmailJS Setup
         (function() {
-            emailjs.init("ZpKDpI8nIH_D5YqCn");  // Replace YOUR_USER_ID with your EmailJS user ID
+            emailjs.init( ZpKDpI8nIH_D5YqCn );
         })();
 
         // Form Submit Event Listener
@@ -16,7 +16,11 @@
             const message = document.getElementById("message").value;
 
             // Send Email using EmailJS
+<<<<<<< HEAD
             emailjs.send("service_ldh54m4", "template_75l8i3d",{
+=======
+            emailjs.send( service_ldh54m4, template_75l8i3d, {
+>>>>>>> d7a421fc3bfe1969e9fcfcc78e13bbde8887a153
                 name: name,
                 email: email,
                 phone: phone,
