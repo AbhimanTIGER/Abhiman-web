@@ -16,7 +16,7 @@
             const message = document.getElementById("message").value;
 
             // Send Email using EmailJS
-            emailjs.send("service_ldh54m4", "template_75l8i3d", {
+            emailjs.send("service_ldh54m4", "template_75l8i3d",{
                 name: name,
                 email: email,
                 phone: phone,
