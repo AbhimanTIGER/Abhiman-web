@@ -5,7 +5,7 @@
     font-family: Arial, sans-serif;
 }
 header {
-    background-image: url('img/BB1msOP5.jpg') ;
+    background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2022/01/header-hero.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -61,27 +61,27 @@ header {
 .name3 {
     margin-top: 30px;
     text-align: center;
-    color: rgb(51, 31, 31);
+    color: rgb(0, 0, 0);
 }
 .name4 {
     font-size: 50px;
     margin-top: 30px;
     text-align: center;
-    color: rgb(80, 56, 56);
+    color: rgb(255, 255, 255);
 }
 .name5 {
     text-decoration: none;
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px 20px;
-    font-size: 18px;
+    margin-left: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
     color: #00e8f8;
-    background-color: #ffcc0000;
-    border: 1px solid rgb(0, 255, 13);
+    background-color: #5f7c11d5;
+    border: 1.55px solid rgba(126, 99, 12, 0.87);
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 8px;
 }
 .name5:hover {
     background-color: #03030350;
@@ -151,13 +151,14 @@ header {
 
 
 .profil {
-    background-color: #0e686e13;
+    background-color: #0e686e2a;
     color: #70a5c9;
 }
 .lorem_pro {
+    
     width: 60%;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 900;
 }
 .para_pro {
     color: #008791;
@@ -169,7 +170,7 @@ header {
     flex-wrap: wrap;
     margin-top: 30px;
     padding-top: 50px;
-    animation: welco 0.25s infinite alternate ease-in-out;
+    background-color: #a59d9d00;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -193,7 +194,7 @@ header {
     margin-top: 35px;
     font-size: 25px;
     color: #702222e1;
-    font-weight: 800;
+    font-weight: 500;
 }
 .name51 {
     text-decoration: none;
@@ -225,29 +226,34 @@ header {
     animation-name: welcom_lorem;
     animation-duration: 6s;
 }
+
 .cal {
     margin: 0%;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #00e8f8;
+    color: #da8787;
 }
 .footer {
-    background-color: #0099ff6e;
+    background-color: #0099ffad;
 }
 
+.navba {
+    background-color: #33333300;
+    display: flex;
+    padding: 3px;
+    padding-left: 5%;
+}
 
+.navba a {
+    color: rgb(0, 5, 80);
+    font-size: 19px;
+    text-decoration: none;
+    margin: 40px 20px;
 
-
-
-
-
-
-
-
-
-
-
-
+}
+.navba a:hover {
+    color: #8cc1e4;
+}
 
 
 
@@ -255,21 +261,21 @@ header {
 @keyframes welco2 {
 
     0% {
-        background: linear-gradient(4deg, #bb80ff, #ffffff);
+        background: linear-gradient(4deg, #fcb4b4, #ff9b9b);
     }
 
     100% {
-        background: linear-gradient(4deg, #bb80ff, #ffffff);
+        background: linear-gradient(4deg, #fcb4b4, #ff9b9b);
     }
 }
 @keyframes welco {
 
     0% {
-        background: linear-gradient(4deg, #5a00a3, #ffffff);
+        background: linear-gradient(4deg, #ffffff, #e5a0a0);
     }
 
     100% {
-        background: linear-gradient(4deg, #5a00a3, #ffffff);
+        background: linear-gradient(4deg, #ffffff, #e5a0a0);
     }
 }
 @keyframes zoom {

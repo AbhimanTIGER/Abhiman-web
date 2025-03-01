@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/header-hero-1.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boy {
+    text-align: center;
+    padding-top: 80px;
+}
+.pot {
+    padding-bottom: 20px;
+    font-size: 23px;
+    text-transform: capitalize;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(122, 77, 77);
+    text-shadow: 3px 3px 3px gold;
+}
+.doc {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: rgba(139, 110, 110, 0.144);
+}
+.al {
+    width: auto;
+    color: rgb(112, 88, 88);
+    margin: 50px 50px;
+
+}
+.das {
+    font-weight: 500;
+    color: rgb(99, 87, 87);
+}

@@ -15,7 +15,7 @@ header {
     padding-bottom: 100px;
     color: rgb(145, 55, 40);
     animation-name:zoom;
-    animation-duration: 6s;
+    animation-duration: 4s;
     text-align: center;
     font-size: 80px;
 }
