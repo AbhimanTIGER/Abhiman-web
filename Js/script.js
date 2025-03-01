@@ -1,30 +1,21 @@
-        // EmailJS Setup
-        (function() {
-            emailjs.init("ZpKDpI8nIH_D5YqCn");  // Replace YOUR_USER_ID with your EmailJS user ID
-        })();
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();
 
-        // Form Submit Event Listener
-        const form = document.getElementById("contact-form");
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var phone = document.getElementById("phone").value;
+    var message = document.getElementById("message").value;
 
-        form.addEventListener("submit", function(event) {
-            event.preventDefault();
+    if (name.trim() === "" || email.trim() === "" || phone.trim() === "" || message.trim() === "") {
+        alert("Please fill all fields before sending.");
+        return;
+    }
 
-            // Form Fields
-            const name = document.getElementById("name").value;
-            const email = document.getElementById("email").value;
-            const phone = document.getElementById("phone").value;
-            const message = document.getElementById("message").value;
+    var fullMessage = `Name : ${name}\nNumber : ${phone}\nEmail : ${email}\nMessage : ${message}`;
 
-            // Send Email using EmailJS
-            emailjs.send("service_ldh54m4", "template_75l8i3d",{
-                name: name,
-                email: email,
-                phone: phone,
-                message: message
-            })
-            .then(function(response) {
-                alert("Message sent successfully!");
-            }, function(error) {
-                alert("Failed to send message. Please try again.");
-            });
-        });
+    var myPhoneNumber = "94775295373";
+    var encodedMessage = encodeURIComponent(fullMessage);
+    var whatsappURL = `https://wa.me/${myPhoneNumber}?text=${encodedMessage}`;
+    window.open(whatsappURL, "_blank");
+
+});
