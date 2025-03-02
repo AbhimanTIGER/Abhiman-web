@@ -1,25 +1,23 @@
 function Maseg(){
 
-    alert("Obata labena number ekata maseg eka drop karanna.");
 
-    // 🟢 Form එකෙන් data එක ගන්න
-    var name = document.getElementById("name").value; // Name field එකේ value එක ගන්න
-    var email = document.getElementById("email").value; // Email field එකේ value එක ගන්න
+
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
     var phone = document.getElementById("phone").value;
-    var message = document.getElementById("message").value; // Message field එකේ value එක ගන්න
+    var message = document.getElementById("message").value;
 
-    // 🔴 Empty fields check කරනවා
-    if (name.trim() === "" || email.trim() === "" || message.trim() === "") {
-        alert("Please fill all fields before sending."); // Empty නම් alert එකක් පෙන්වනවා
-        return; // Function එක අවසන් කරනවා (message එක යැවීම නවත්වනවා)
+    if (name.trim() === "" || email.trim() === "" || message.trim() === "" || phone.trim() === "" ) {
+        alert("Please fill all fields before sending.");
+        return;
     }
 
-    // 🟡 User එක enter කරපු data එක message එකක් වශයෙන් සකස් කරනවා
+    alert("Go Whatsapp & Drop you maseg now");
+
     var fullMessage = `Name: ${name}\nEmail: ${email}\nTel: ${phone}\nMessage: ${message}`;
 
-    // 🟢 Method 1: WhatsApp එකට message එක යැවීම
-    var myPhoneNumber = "+94775295373"; // ඔබේ WhatsApp අංකය (94 country code සමඟ)
-    var encodedMessage = encodeURIComponent(fullMessage); // Message එක encode කරනවා
-    var whatsappURL = `https://wa.me/${myPhoneNumber}?text=${encodedMessage}`; // WhatsApp URL එක සාදනවා
+    var myPhoneNumber = "+94775295373";
+    var encodedMessage = encodeURIComponent(fullMessage);
+    var whatsappURL = `https://wa.me/${myPhoneNumber}?text=${encodedMessage}`; 
     window.open(whatsappURL, "_blank");
 }
