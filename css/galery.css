@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+.g-nav{
+
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.281);
+
+}
+.as {
+    margin-left: 40px;
+    color: aliceblue;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.as:hover {
+    margin-left: 40px;
+    color: rgba(240, 248, 255, 0.705);
+    cursor: pointer;
+}
