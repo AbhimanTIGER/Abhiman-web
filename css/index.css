@@ -254,6 +254,11 @@ header {
     color: #8cc1e4;
 }
 
+.lat:hover {
+    transform: scale(1.1);
+    transform: translateY(-5px);
+    transition: transform 1s ease;
+}
 
 
 
