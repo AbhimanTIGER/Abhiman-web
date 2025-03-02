@@ -13,7 +13,7 @@ function buton2() {
     document.getElementById("imgg").style.display = "none";
     document.getElementById("note").style.display = "none";
     document.getElementById("skilo").style.display = "block";
-    document.getElementById("lon2").style.backgroundColor = "rgb(65, 170, 255)";
+    document.getElementById("lon2").style.backgroundColor = "rgba(96, 183, 255, 0.81)";
 
 
 
@@ -23,7 +23,7 @@ function buton3() {
     document.getElementById("imgg").style.display = "none";
     document.getElementById("note").style.display = "none";
     document.getElementById("skilo").style.display = "none";
-    document.getElementById("lon2").style.backgroundColor = "rgb(65, 170, 255)";
+    document.getElementById("lon2").style.backgroundColor = " #0ef";
 
 }
 function buton4() {
@@ -31,6 +31,6 @@ function buton4() {
     document.getElementById("imgg").style.display = "none";
     document.getElementById("note").style.display = "none";
     document.getElementById("skilo").style.display = "none";
-    document.getElementById("lon2").style.backgroundColor = "rgb(65, 170, 255)";
+    document.getElementById("lon2").style.backgroundColor = " #0ef";
 
 }

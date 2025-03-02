@@ -65,7 +65,7 @@ section {
 
 .Technical-bars .bar .progress-line span {
     height: 100%;
-    background-color: rgb(48, 121, 15);
+    background-color: rgb(255, 0, 242);
     position: absolute;
     border-radius: 10px;
     animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
